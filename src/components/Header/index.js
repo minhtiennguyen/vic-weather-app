@@ -1,9 +1,9 @@
 import React from 'react';
-import SearchInput from './Input/Search';
+import Input from '../Input';
 
 const Header = () => (
   <header className='header'>
-    <SearchInput className='header__search' />
+    <Input className='header__search' />
   </header>
 );
 

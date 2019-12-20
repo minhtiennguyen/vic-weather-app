@@ -1,14 +1,12 @@
 import React from 'react';
 
-import Header from './Header';
-import WeatherDetails from './WeatherDetails';
+import WeatherList from './Weather';
+// import Header from './Header';
 import './App.css';
-import data from '../assets/data.json';
 
 const App = () => (
   <div className='app'>
-    <Header />
-    <WeatherDetails data={data} />
+    <WeatherList />
   </div>
 );
 
