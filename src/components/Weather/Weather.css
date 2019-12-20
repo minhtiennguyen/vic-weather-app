@@ -85,9 +85,6 @@ h1.main-city__name {
   color: gray;
 }
 
-.main-city__info .text {
-}
-
 @media all and (min-width: 800px) {
   .main-city_header,
   .main-city__conditions {
