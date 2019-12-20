@@ -1,15 +1,15 @@
 import React from 'react';
-import './App.css';
 
-function App() {
-  return (
-    <div className='app'>
-      <header className='header'>Header</header>
-      <div className='main'>
-        Main
-      </div>
-    </div>
-  );
-}
+import Header from './Header';
+import WeatherDetails from './WeatherDetails';
+import './App.css';
+import data from '../assets/data.json';
+
+const App = () => (
+  <div className='app'>
+    <Header />
+    <WeatherDetails data={data} />
+  </div>
+);
 
 export default App;
