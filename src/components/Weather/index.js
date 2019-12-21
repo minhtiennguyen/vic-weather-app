@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
-import './Weather.css';
 
 import { fetchWeather } from '../../actions/weather';
 import WeatherItem from './WeatherItem';
