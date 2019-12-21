@@ -1,10 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Example live
+`https://minhtiennguyen.github.io/vic-weather-app/`
+
+## Setup local
+Node version: v12.13.0
+Run `npm start install` to install dependencies
+Create `.env` on root folder then add `REACT_APP_WEATHER_API_KEY` which is APPID from `https://openweathermap.org`
+You can register one for free or copy from `.env.example`
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start` or `npm start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -25,10 +34,7 @@ Run all the tests and  generate coverage report file.<br />
 
 Open the coverage report file.<br />
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
