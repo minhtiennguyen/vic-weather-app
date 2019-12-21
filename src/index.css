@@ -22,7 +22,6 @@ code {
 .app {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .spinner {
@@ -130,6 +129,10 @@ h1.main-city__name {
 }
 
 @media all and (min-width: 800px) {
+  .app {
+    justify-content: center;
+  }
+
   .main-city_header,
   .main-city__conditions {
     /* width: 50%; */
