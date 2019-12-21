@@ -21,7 +21,6 @@ class Weather extends Component {
 
   selectCity = id => {
     const { unit } = this.state;
-    console.log(id);
     this.props.fetchWeather(id, unit);
   };
 
@@ -59,4 +58,4 @@ const mapDispatchToProps = {
 
 export default connect(mapStateToProps, mapDispatchToProps)(Weather);
 
-export { WeatherItem, MainWeather };
+export { WeatherItem, MainWeather, Weather };
