@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/minhtiennguyen/vic-weather-app/static/css/main.9e63278e.chunk.css",
+    "main.js": "/minhtiennguyen/vic-weather-app/static/js/main.8cd49826.chunk.js",
+    "main.js.map": "/minhtiennguyen/vic-weather-app/static/js/main.8cd49826.chunk.js.map",
+    "runtime-main.js": "/minhtiennguyen/vic-weather-app/static/js/runtime-main.81d0a152.js",
+    "runtime-main.js.map": "/minhtiennguyen/vic-weather-app/static/js/runtime-main.81d0a152.js.map",
+    "static/js/2.a9edd269.chunk.js": "/minhtiennguyen/vic-weather-app/static/js/2.a9edd269.chunk.js",
+    "static/js/2.a9edd269.chunk.js.map": "/minhtiennguyen/vic-weather-app/static/js/2.a9edd269.chunk.js.map",
+    "index.html": "/minhtiennguyen/vic-weather-app/index.html",
+    "precache-manifest.e9c5d493f213ef470a453b7a5e1026de.js": "/minhtiennguyen/vic-weather-app/precache-manifest.e9c5d493f213ef470a453b7a5e1026de.js",
+    "service-worker.js": "/minhtiennguyen/vic-weather-app/service-worker.js",
+    "static/css/main.9e63278e.chunk.css.map": "/minhtiennguyen/vic-weather-app/static/css/main.9e63278e.chunk.css.map",
+    "static/js/2.a9edd269.chunk.js.LICENSE": "/minhtiennguyen/vic-weather-app/static/js/2.a9edd269.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81d0a152.js",
+    "static/js/2.a9edd269.chunk.js",
+    "static/css/main.9e63278e.chunk.css",
+    "static/js/main.8cd49826.chunk.js"
+  ]
+}
