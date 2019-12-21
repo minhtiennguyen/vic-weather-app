@@ -1,6 +1,7 @@
 module.exports = {
   verbose: false,
   browser: true,
+  automock: false,
   coverageThreshold: {
     global: {
       branches: 80,
