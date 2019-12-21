@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vic-weather-app/precache-manifest.b3aef4c13a7c1fcc59a085132de46618.js"
+  "/vic-weather-app/precache-manifest.22802960d95200fc71f65b66f88c648e.js"
 );
 
 self.addEventListener('message', (event) => {
