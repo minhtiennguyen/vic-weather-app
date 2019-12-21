@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ad7d49820c17e9f004c7c86ba0ca78b",
+    "revision": "10f85a6a793c48643b45f09d6b09a3cd",
     "url": "/vic-weather-app/index.html"
   },
   {
-    "revision": "4cf06248fa1ae92ca4ce",
-    "url": "/vic-weather-app/static/css/main.b7a128ec.chunk.css"
+    "revision": "68af021b9c7efccaedf0",
+    "url": "/vic-weather-app/static/css/main.b16cb53c.chunk.css"
   },
   {
     "revision": "61981dd941272a6291df",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vic-weather-app/static/js/2.4f6508a8.chunk.js.LICENSE"
   },
   {
-    "revision": "4cf06248fa1ae92ca4ce",
+    "revision": "68af021b9c7efccaedf0",
     "url": "/vic-weather-app/static/js/main.d58541e7.chunk.js"
   },
   {
