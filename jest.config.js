@@ -10,7 +10,11 @@ module.exports = {
       statements: 80,
     },
   },
-  collectCoverageFrom: ['src/**/*.{js,jsx}', '!src/__test__/**/*.{js}'],
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx}',
+    '!src/__test__/**/*.{js}',
+    '!src/serviceWorker.js',
+  ],
   setupFiles: ['<rootDir>/setupTest.js'],
   testMatch: [
     '<rootDir>/src/**/__tests__/**/*.js?(x)',
