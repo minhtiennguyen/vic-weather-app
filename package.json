@@ -19,6 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
+    "cover": "npm run test -- --coverage",
+    "cover:view": "open ./coverage/lcov-report/index.html || start ./coverage/lcov-report/index.html",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

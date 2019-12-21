@@ -1,5 +1,6 @@
 import React from 'react';
 import config from '../../config';
+import { convertUnixTimestamp } from '../../utils';
 
 const MainWeather = ({ city }) => (
   <div className='main-city'>
@@ -57,12 +58,5 @@ const MainWeather = ({ city }) => (
     </div>
   </div>
 );
-
-const convertUnixTimestamp = timestamp => {
-  const d = new Date(timestamp * 1000);
-  const hours = ('0' + d.getHours()).slice(-2);
-  const minutes = ('0' + d.getMinutes()).slice(-2);
-  return `${hours}:${minutes} ${hours > 12 ? 'PM' : 'AM'}`;
-};
 
 export default MainWeather;
