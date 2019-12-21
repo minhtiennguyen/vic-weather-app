@@ -18,6 +18,3 @@ ReactDOM.render(app, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-
-// http://api.openweathermap.org/data/2.5/forecast?id=2147714&APPID=c358e10315a94898142a5908ebcb11cd

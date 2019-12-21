@@ -1,13 +1,13 @@
-// import { FETCH_WEATHER } from '../constants/actionTypes';
+import { FETCH_WEATHER, FETCH_WEATHER_SUCCESS, FETCH_WEATHER_FAILED } from '../constants/actionTypes';
 import { createAction } from 'redux-actions';
 import config from '../config';
 
-const fetchWeatherSuccess = createAction('FETCH_WEATHER_SUCCESS');
-const fetchWeatherFailed = createAction('FETCH_WEATHER_FAILED');
+const fetchWeatherSuccess = createAction(FETCH_WEATHER_SUCCESS);
+const fetchWeatherFailed = createAction(FETCH_WEATHER_FAILED);
 
 const fetchWeather = (cityId, unit) => dispatch => {
   const url = `${config.apiUrl}?id=${cityId}&APPID=${config.apiKey}&units=${unit}`;
-  dispatch({ type: 'FETCH_WEATHER' });
+  dispatch({ type: FETCH_WEATHER });
   return fetch(url)
     .then(res => res.json())
     .then(

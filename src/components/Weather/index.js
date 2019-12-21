@@ -22,15 +22,17 @@ class Weather extends Component {
 
   selectCity = id => {
     const { unit } = this.state;
+    console.log(id);
     this.props.fetchWeather(id, unit);
   };
 
   render() {
-    const { cities, isLoaded, current } = this.props;
+    const { cities, isLoaded, hasError } = this.props;
+    const selectedIndex = cities.findIndex(city => city.selected === true);
+
     return (
       <Fragment>
-        {isLoaded ?   <MainWeather city={current} /> : <div className='spinner'>loading...</div>}
-
+        {isLoaded ? <MainWeather city={cities[selectedIndex]} /> : <div className='spinner'>loading...</div>}
         <div className='cities'>
           {(cities || []).map(city => (
             <WeatherItem
@@ -40,19 +42,20 @@ class Weather extends Component {
             />
           ))}
         </div>
+        {hasError && <div className='error'>Something went wrong</div>}
       </Fragment>
     );
   }
 }
 
 const mapStateToProps = state => ({
-  current: state.weather.current,
   cities: state.weather.list,
   isLoaded: state.weather.isLoaded,
+  hasError: state.weather.hasError
 });
 
 const mapDispatchToProps = {
-  fetchWeather,
+  fetchWeather
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Weather);
