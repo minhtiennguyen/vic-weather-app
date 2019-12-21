@@ -1,13 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Example live
-`https://minhtiennguyen.github.io/vic-weather-app/`
+[https://minhtiennguyen.github.io/vic-weather-app/](https://minhtiennguyen.github.io/vic-weather-app/).
 
 ## Setup local
-Node version: v12.13.0
-Run `npm start install` to install dependencies
-Create `.env` on root folder then add `REACT_APP_WEATHER_API_KEY` which is APPID from `https://openweathermap.org`
-You can register one for free or copy from `.env.example`
+Node version: v12.13.0 <br />
+Run `npm install` to install dependencies<br />
+Create `.env` on root folder then add `REACT_APP_WEATHER_API_KEY` which is APPID from [https://openweathermap.org](https://openweathermap.org) <br />
+Example key can be found in `.env.example`
 
 ## Available Scripts
 
