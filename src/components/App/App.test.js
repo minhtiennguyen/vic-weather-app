@@ -1,9 +1,12 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import App from '.';
+import { shallow } from 'enzyme';
+import Weather from '../Weather';
+import App from './index';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('App', () => {
+  let wrapper = shallow(<App />);
+
+  it('should render', () => {
+    expect(wrapper.find(Weather).length).toBe(1);
+  });
 });

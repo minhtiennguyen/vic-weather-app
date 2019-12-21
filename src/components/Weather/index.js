@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
-import './Weather.css';
 
 import { fetchWeather } from '../../actions/weather';
 import WeatherItem from './WeatherItem';
@@ -22,7 +21,6 @@ class Weather extends Component {
 
   selectCity = id => {
     const { unit } = this.state;
-    console.log(id);
     this.props.fetchWeather(id, unit);
   };
 
@@ -60,4 +58,4 @@ const mapDispatchToProps = {
 
 export default connect(mapStateToProps, mapDispatchToProps)(Weather);
 
-export { WeatherItem, MainWeather };
+export { WeatherItem, MainWeather, Weather };
