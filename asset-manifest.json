@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vic-weather-app/static/css/main.0f3226fb.chunk.css",
-    "main.js": "/vic-weather-app/static/js/main.fb807542.chunk.js",
-    "main.js.map": "/vic-weather-app/static/js/main.fb807542.chunk.js.map",
+    "main.js": "/vic-weather-app/static/js/main.1410fbfa.chunk.js",
+    "main.js.map": "/vic-weather-app/static/js/main.1410fbfa.chunk.js.map",
     "runtime-main.js": "/vic-weather-app/static/js/runtime-main.4d17959f.js",
     "runtime-main.js.map": "/vic-weather-app/static/js/runtime-main.4d17959f.js.map",
     "static/js/2.aec16645.chunk.js": "/vic-weather-app/static/js/2.aec16645.chunk.js",
     "static/js/2.aec16645.chunk.js.map": "/vic-weather-app/static/js/2.aec16645.chunk.js.map",
     "index.html": "/vic-weather-app/index.html",
-    "precache-manifest.95c7ff1d312360b70f076252cccec6d9.js": "/vic-weather-app/precache-manifest.95c7ff1d312360b70f076252cccec6d9.js",
+    "precache-manifest.2d176fdc1b23276f4517f990bb4c8745.js": "/vic-weather-app/precache-manifest.2d176fdc1b23276f4517f990bb4c8745.js",
     "service-worker.js": "/vic-weather-app/service-worker.js",
     "static/css/main.0f3226fb.chunk.css.map": "/vic-weather-app/static/css/main.0f3226fb.chunk.css.map",
     "static/js/2.aec16645.chunk.js.LICENSE": "/vic-weather-app/static/js/2.aec16645.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4d17959f.js",
     "static/js/2.aec16645.chunk.js",
     "static/css/main.0f3226fb.chunk.css",
-    "static/js/main.fb807542.chunk.js"
+    "static/js/main.1410fbfa.chunk.js"
   ]
 }
