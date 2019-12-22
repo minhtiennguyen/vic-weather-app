@@ -15,13 +15,12 @@ class Weather extends Component {
   };
 
   componentDidMount() {
-    const { city, unit } = this.state;
-    this.props.fetchWeather(city.id, unit);
+    const { city } = this.state;
+    this.props.fetchWeather(city.id);
   }
 
   selectCity = id => {
-    const { unit } = this.state;
-    this.props.fetchWeather(id, unit);
+    this.props.fetchWeather(id);
     this.setState({ city: { id } });
   };
 
