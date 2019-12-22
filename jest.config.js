@@ -15,6 +15,7 @@ module.exports = {
     '!src/__test__/**/*.{js}',
     '!src/serviceWorker.js',
     '!src/store/index.js',
+    '!src/reducer/index.js',
     '!src/index.js',
   ],
   setupFiles: ['<rootDir>/setupTest.js'],

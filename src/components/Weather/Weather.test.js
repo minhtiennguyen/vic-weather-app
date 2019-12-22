@@ -2,8 +2,6 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { Weather } from './index';
 
-// import configureMockStore from 'redux-mock-store';
-
 describe('Weather', () => {
   const props = {
     cities: [
