@@ -47,7 +47,7 @@ const MainWeather = ({ city, unit }) => (
       <div className='main-city__info'>
         <div>
           <span className='heading'>Feels like</span> <br />{' '}
-          {convertTemp(unit, city.main.feels_like)} &deg;C
+          {convertTemp(unit, city.main.feels_like)}&deg;
         </div>
         <div>
           <span className='heading'>Humidity</span> <br /> {city.main.humidity}%
