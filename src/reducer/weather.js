@@ -11,7 +11,7 @@ const citiesList = data.map(city => {
 
 const handleFetchWeatherSuccess = (state, action) => {
   const { list } = state;
-  list.map(city => (city.selected = false));
+  // const newList = list.map(city => (city.selected = false));
   const foundIndex = list.findIndex(city => city.id === action.payload.id);
   list[foundIndex] = action.payload;
   list[foundIndex].selected = true;
