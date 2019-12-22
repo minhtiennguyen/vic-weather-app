@@ -5,9 +5,9 @@ const convertUnixTimestamp = timestamp => {
   return `${(hours % 12) ? hours : 12}:${minutes} ${hours > 12 ? 'PM' : 'AM'}`;
 };
 
-const toCelsius = fahrenheit => {
-  return ((fahrenheit - 32) * 5) / 9;
-};
+// const toCelsius = fahrenheit => {
+//   return ((fahrenheit - 32) * 5) / 9;
+// };
 
 const toFahrenheit = celsius => {
   return ((celsius * 9) / 5 + 32).toFixed(2);
@@ -33,4 +33,4 @@ const getCurentTime = () => {
 };
 
 
-export { convertUnixTimestamp, toCelsius, toFahrenheit, convertTemp, getCurentTime };
+export { convertUnixTimestamp, toFahrenheit, convertTemp, getCurentTime };

@@ -19,4 +19,11 @@ describe('WeatherItem', () => {
       .simulate('click');
     expect(selectCityMock).toHaveBeenCalled();
   });
+
+  it('should add weather-item--selected class when a main city is selected', () => {
+    wrapper = shallow(
+      <WeatherItem city={{ id: 1, name: 'test' }} selectCity={selectCityMock} isMain={true} />
+    );
+    expect(wrapper.find('.weather-item--selected').length).toBe(1);
+  });
 });
