@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/vic-weather-app/static/css/main.b16cb53c.chunk.css",
-    "main.js": "/vic-weather-app/static/js/main.d58541e7.chunk.js",
-    "main.js.map": "/vic-weather-app/static/js/main.d58541e7.chunk.js.map",
+    "main.css": "/vic-weather-app/static/css/main.0f3226fb.chunk.css",
+    "main.js": "/vic-weather-app/static/js/main.03017c93.chunk.js",
+    "main.js.map": "/vic-weather-app/static/js/main.03017c93.chunk.js.map",
     "runtime-main.js": "/vic-weather-app/static/js/runtime-main.4d17959f.js",
     "runtime-main.js.map": "/vic-weather-app/static/js/runtime-main.4d17959f.js.map",
-    "static/js/2.4f6508a8.chunk.js": "/vic-weather-app/static/js/2.4f6508a8.chunk.js",
-    "static/js/2.4f6508a8.chunk.js.map": "/vic-weather-app/static/js/2.4f6508a8.chunk.js.map",
+    "static/js/2.aec16645.chunk.js": "/vic-weather-app/static/js/2.aec16645.chunk.js",
+    "static/js/2.aec16645.chunk.js.map": "/vic-weather-app/static/js/2.aec16645.chunk.js.map",
     "index.html": "/vic-weather-app/index.html",
-    "precache-manifest.a4f04cd0794d74af95ba46d31c53bdab.js": "/vic-weather-app/precache-manifest.a4f04cd0794d74af95ba46d31c53bdab.js",
+    "precache-manifest.db10a51170cb4476d4bf25250bfe92c1.js": "/vic-weather-app/precache-manifest.db10a51170cb4476d4bf25250bfe92c1.js",
     "service-worker.js": "/vic-weather-app/service-worker.js",
-    "static/css/main.b16cb53c.chunk.css.map": "/vic-weather-app/static/css/main.b16cb53c.chunk.css.map",
-    "static/js/2.4f6508a8.chunk.js.LICENSE": "/vic-weather-app/static/js/2.4f6508a8.chunk.js.LICENSE"
+    "static/css/main.0f3226fb.chunk.css.map": "/vic-weather-app/static/css/main.0f3226fb.chunk.css.map",
+    "static/js/2.aec16645.chunk.js.LICENSE": "/vic-weather-app/static/js/2.aec16645.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.4d17959f.js",
-    "static/js/2.4f6508a8.chunk.js",
-    "static/css/main.b16cb53c.chunk.css",
-    "static/js/main.d58541e7.chunk.js"
+    "static/js/2.aec16645.chunk.js",
+    "static/css/main.0f3226fb.chunk.css",
+    "static/js/main.03017c93.chunk.js"
   ]
 }
