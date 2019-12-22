@@ -1,8 +1,8 @@
 import React from 'react';
 import config from '../../config';
-import { convertUnixTimestamp } from '../../utils';
+import { convertUnixTimestamp, convertTemp, getCurentTime } from '../../utils';
 
-const MainWeather = ({ city }) => (
+const MainWeather = ({ city, unit }) => (
   <div className='main-city'>
     <div className='main-city_header'>
       <h1 className='main-city__name'>{city.name}</h1>
@@ -13,10 +13,27 @@ const MainWeather = ({ city }) => (
         />
       </span>
       <span className='main-city__desc'>{city.weather[0].description}</span>
-      <span className='main-city__temp'>{city.main.temp} &deg;C</span>
+      <span className='main-city__temp'>{convertTemp(unit, city.main.temp)}&deg;</span>
     </div>
 
     <div className='main-city__conditions'>
+    <div className='main-city__info main-city__info--no-border'>
+        <div>
+          <span className='heading'>Local Time</span> <br />{' '}
+          {getCurentTime()}
+        </div>
+
+      </div>
+    <div className='main-city__info'>
+        <div>
+          <span className='heading'>Min</span> <br />{' '}
+          {convertTemp(unit, city.main.temp_min)}&deg;
+        </div>
+        <div>
+          <span className='heading'>Max</span> <br />{' '}
+          {convertTemp(unit, city.main.temp_max)}&deg;
+        </div>
+      </div>
       <div className='main-city__info'>
         <div>
           <span className='heading'>Sunrise</span> <br />{' '}
@@ -30,7 +47,7 @@ const MainWeather = ({ city }) => (
       <div className='main-city__info'>
         <div>
           <span className='heading'>Feels like</span> <br />{' '}
-          {city.main.feels_like} &deg;C
+          {convertTemp(unit, city.main.feels_like)} &deg;C
         </div>
         <div>
           <span className='heading'>Humidity</span> <br /> {city.main.humidity}%

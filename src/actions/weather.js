@@ -4,6 +4,7 @@ import config from '../config';
 
 const fetchWeatherSuccess = createAction(FETCH_WEATHER_SUCCESS);
 const fetchWeatherFailed = createAction(FETCH_WEATHER_FAILED);
+const selectMainCity = createAction('SELECT_MAIN_CITY');
 
 const fetchWeather = (cityId, unit) => dispatch => {
   const url = `${config.apiUrl}?id=${cityId}&APPID=${config.apiKey}&units=${unit}`;
@@ -16,4 +17,4 @@ const fetchWeather = (cityId, unit) => dispatch => {
     );
 }
 
-export { fetchWeather };
+export { fetchWeather, selectMainCity };
